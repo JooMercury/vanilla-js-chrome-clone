@@ -3,7 +3,7 @@ const images = [
   "1.jpeg",
   "2.jpeg",
   "3.jpeg",
-  "4jpeg",
+  "4.jpeg",
   "5.jpeg",
   "6.jpeg",
   "7.jpeg",
@@ -20,5 +20,5 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 // document.body.appendChild(bgImage);
 
 document.body.style.background = `url(img/${chosenImage})`;
-document.body.style.backgroundSize = "cover";
+document.body.style.backgroundSize = "250%";
 document.body.style.backgroundPosition = "center";
