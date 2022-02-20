@@ -20,5 +20,5 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 // document.body.appendChild(bgImage);
 
 document.body.style.background = `url(img/${chosenImage})`;
-document.body.style.backgroundSize = "250%";
+document.body.style.backgroundSize = "cover";
 document.body.style.backgroundPosition = "center";

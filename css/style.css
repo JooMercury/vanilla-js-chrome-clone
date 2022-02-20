@@ -1,10 +1,9 @@
-.hidden {
-  display: none;
-}
 html,
 body {
   width: 100%;
   height: 100%;
+  color: aliceblue;
+  position: absolute;
 }
 
 #clock {
@@ -12,4 +11,47 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  font-size: 170px;
+  top: 150px;
+}
+input {
+  box-sizing: border-box;
+  font-size: 40px;
+  outline: none;
+}
+input.underline {
+  border-style: none;
+  border-bottom: 2px solid aliceblue;
+  border-collapse: collapse;
+  color: aliceblue;
+}
+
+input::-webkit-input-placeholder {
+  color: aliceblue;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 70px;
+  top: -20px;
+}
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.hidden {
+  display: none;
 }
